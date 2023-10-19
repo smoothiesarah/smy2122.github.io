@@ -1,0 +1,40 @@
+---
+title: "Sarah's first website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Sarah's first website - welcome!
+
+I can add text
+* and lists
+* with extra bullets
+
+I can *italicize* and **bold**
+
+This is a [link](https://www.google.com) to a good data science tool, Google.com!
+Later, I will be able to add a shortcut to another page on my site, such as the [About](about.html) page.
+
+I can still use R and show this random code and plot:
+```{r message = FALSE}
+library(tidyverse)
+
+plot_df =
+  tibble(
+    x = runif(100),
+    y = 1 + 2 * x + rnorm(100)
+  )
+
+plot_df |>
+  ggplot(aes(x = x, y = y)) +
+  geom_point()
+```
+
+# Here is a new section
+
+Here's a JPG I will embed:
+
+![](images/ted.gif)
