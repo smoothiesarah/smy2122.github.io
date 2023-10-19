@@ -9,6 +9,7 @@ output:
 # This is Sarah's first website - welcome!
 
 I can add text
+
 * and lists
 * with extra bullets
 
