@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# This is Sarah's first website - welcome!
+# This is my first website - welcome!
 
 I can add text
 
