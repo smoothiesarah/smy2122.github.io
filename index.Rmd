@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# This is my first website - welcome!
+# Welcome!
 
 I can add text
 
@@ -16,7 +16,14 @@ I can add text
 I can *italicize* and **bold**
 
 This is a [link](https://www.google.com) to a good data science tool, Google.com!
-Later, I will be able to add a shortcut to another page on my site, such as the [About](about.html) page.
+
+## Links to pages
+
+Here's a shortcut to another page on my site, the [About](about.html) page.
+
+Here's a link to my [Plotly](plotly_copy.html) page.
+
+## Here is a new section
 
 I can still use R and show this random code and plot:
 ```{r message = FALSE}
@@ -33,8 +40,6 @@ plot_df |>
   geom_point()
 ```
 
-# Here is a new section
-
-Here's a JPG I will embed:
+Here's a JPG Iembedded:
 
 ![](images/ted.gif)
